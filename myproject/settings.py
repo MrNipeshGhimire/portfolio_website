@@ -29,6 +29,7 @@ DEBUG = True
 ALLOWED_HOSTS = ['nipeshghimire.onrender.com','127.0.0.1']
 
 
+
 # Application definition
 
 INSTALLED_APPS = [
@@ -85,6 +86,17 @@ DATABASES = {
         'PORT' : '55243'
     }
 }
+
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.mysql',
+#         'NAME': 'portfolio_db',
+#         'HOST' : 'localhost',
+#         'USER' : 'root',
+#         'PASSWORD' : '',
+#         'PORT' : '3306'
+#     }
+# }
 
 
 # Password validation
